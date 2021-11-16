@@ -24,6 +24,7 @@ public class Submission implements Serializable {
         this.quizz = quizz;
         if (quizz.isRandomized()) {
             quizz.randomizeQuestions();
+            //    quizz.randomizeMultipleChoice();
         }
         Date date = new Date();
         Timestamp ts = new Timestamp(date.getTime());

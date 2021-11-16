@@ -17,13 +17,21 @@ public class MultipleChoice extends Question {
         return answerChoices;
     }
 
+    public void setAnswerChoices(ArrayList<String> s) {
+        this.answerChoices = s;
+    }
+
     private ArrayList<String> answerChoices;
 
     public int getCorrectAnswerIndex() {
         return correctAnswerIndex;
     }
 
-    private int correctAnswerIndex;
+    int correctAnswerIndex;
+
+    public void setCorrectAnswerIndex(int a) {
+        this.correctAnswerIndex = a;
+    }
 
 
     public MultipleChoice(String question, int numChoices,ArrayList answerChoices, int answerIndex, int pointValue) {

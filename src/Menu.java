@@ -19,7 +19,8 @@ public class Menu {
     private static final String TEACHER_OR_STUDENT = "Are you a teacher or a student?\n" +
             "1. Teacher\n" +
             "2. Student";
-    private static final String ACCOUNT_ALREADY_EXISTS_MESSAGE = "Another account with the given username already exists."
+    private static final String ACCOUNT_ALREADY_EXISTS_MESSAGE = "Another account with the given username" +
+            " already exists."
             + " Please try again.";
     private static final String ACCOUNT_INVALID_MESSAGE = "The account with the given username and password" +
             " could not be found. Please try again.";
@@ -41,7 +42,8 @@ public class Menu {
             "or enter it through the terminal?\n" +
             "1. Import as file\n" +
             "2. Enter through terminal";
-    private static final String ADD_OR_EXISTING_COURSE_MESSAGE = "Would you like to add a new course or use an existing " +
+    private static final String ADD_OR_EXISTING_COURSE_MESSAGE = "Would you like to add a new course or use an" +
+            " existing " +
             "course?\n" +
             "1. Add a new course\n" +
             "2. Use an existing course\n" +
