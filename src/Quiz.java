@@ -272,6 +272,36 @@ public class Quiz implements Serializable {
 
     }
 
+    //public void randomizeMultipleChoice() {
+    //    ArrayList<String> temp = new ArrayList<>();
+    //    ArrayList<String> temp2 = new ArrayList<>();
+    //    int choicesLength;
+    //    int index;
+    //    int correctAnswerIndex = 0;
+    //    int index2;
+    //    boolean check;
+    //    for (Question q : quiz) {
+    //        if (q instanceof MultipleChoice) {
+    //            temp = ((MultipleChoice) q).getAnswerChoices();
+    //            choicesLength = temp.size();
+    //            index2 = 0;
+    //            check = true;
+    //            while (choicesLength > 0) {
+    //                index2++;
+    //                index = ((int) (Math.random() * choicesLength));
+    //                if (index == ((MultipleChoice) q).getCorrectAnswerIndex() && check) {
+    //                    correctAnswerIndex = index2;
+    //                    check = false;
+    //                }
+    //                temp2.add(temp.remove(index));
+    //                choicesLength--;
+    //            }
+    //            ((MultipleChoice) q).setAnswerChoices(temp2);
+    //            ((MultipleChoice) q).setCorrectAnswerIndex(correctAnswerIndex);
+    //        }
+    //    }
+    //}
+
 
 }
 
