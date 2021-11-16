@@ -161,9 +161,9 @@ public class Submission implements Serializable {
                     pw.print("Question " + (i + 1) + ". ");
                     pw.println(temp.getQuestion());
                     pw.print("Answer " + (i + 1) + ". ");
-                    pw.println(temp.correctAnswerIndex);
+                    pw.println(temp.getCorrectAnswerIndex());
                     pw.println("Your answer: " + ((answers.get(i))));
-                    if (temp.correctAnswerIndex == Integer.parseInt((String) (answers.get(i)))) {
+                    if (temp.getCorrectAnswerIndex() == Integer.parseInt((String) (answers.get(i)))) {
                         pw.println("Points got: " + temp.getPointValue());
                         totalScore += temp.getPointValue();
                     } else {
